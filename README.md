@@ -1,6 +1,6 @@
 # AI-Code-Reviewer
 **📌Overview :**
-AI Code Reviewer is a Streamlit-based web application that utilizes Google's Gemini AI model to analyze and debug Python code. The application identifies potential bugs, errors, and areas for improvement, providing users with a detailed bug report and a corrected version of their code.
+AI Code Reviewer is a Streamlit-based application that utilizes Google's Gemini AI model to analyze and debug Python code. The application identifies potential bugs, errors, and areas for improvement, providing users with a detailed bug report and a corrected version of their code.
 
 **Features :**
 
