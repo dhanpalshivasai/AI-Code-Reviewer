@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure API Key
-genai.configure(api_key="Your API key")
+genai.configure(api_key=st.secrets["api_key"])
 
 # Creating a system prompt
 sys_prompt="""Assume you are an expert python code debugger.
@@ -28,3 +28,4 @@ if st.button("Generate Answer"):
         st.write(response.text)  # Display response
     else:
         st.warning("Please enter a python code before generating an answer.")
+
